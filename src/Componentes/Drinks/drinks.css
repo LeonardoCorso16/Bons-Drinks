@@ -1,0 +1,41 @@
+.api {
+    grid-template-areas: "cabecalho" "conteudoDrink";
+    grid-template-rows: 3fr 5fr;
+    
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.conteudoDrink {
+    grid-area: conteudoDrink;
+}
+
+.botaoPos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.drinkAnim {
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffe600;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+    transition: 2s ease-in;
+    animation-name: zoom;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+    
+  }
+  
+  @keyframes zoom {
+    from {font-size: 0px;}
+    to {font-size: 50px;}
+  }

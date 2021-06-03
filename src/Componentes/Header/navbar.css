@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+header{
+    grid-area: header;
+    box-shadow: 5px 5px 10px;
+    background-color: #000000;
+    color: #ffe600;
+    height: 60px;
+    font-size: 28px; 
+    font-weight: bold;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    height: 60px;
+}
+
+.titulo2 {
+    color: #ffe600;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.itemPrincipal {
+    color: #ffe600;
+    font-family: 'Dancing Script', cursive;
+}
+
+a{
+    text-decoration: none;
+}

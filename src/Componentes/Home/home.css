@@ -1,0 +1,25 @@
+
+.imgCapa {
+  width: 100%;
+  height: 530px;
+  background-size: cover;
+  background: url("../../assets/bg-bons-drinks.jpg") no-repeat 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.textoCapa {
+  color: rgb(251, 255, 0);
+  text-align: center;
+  font-size: 120px;
+  font-weight: bold;
+  margin-top: 50px;
+  transition: 2s ease-in;
+  animation-name: zoom;
+  animation-duration: 1000ms;
+  animation-fill-mode: forwards;
+}
+@keyframes zoom {
+  from {font-size: 0px;}
+  to {font-size: 120px;}
+}

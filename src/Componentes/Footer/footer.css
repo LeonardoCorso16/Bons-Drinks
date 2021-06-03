@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+footer{
+    grid-area: footer;
+    height: 70px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 42%);
+    padding-top: 10px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    background-color: #000000;
+
+}
+
+.caoFooter{
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    color: #ffe600;
+}

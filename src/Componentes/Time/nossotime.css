@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.divTime {
+    display: grid;
+    grid-template-areas:
+    "titulo titulo titulo titulo"
+    "cachorro1 cao1 cachorro2 cao2"
+    "cachorro3 cao3 cachorro4 cao4";
+    grid-template-rows: 80px 300px;
+    width: 80%;
+    grid-gap: 20px;
+    margin: 15px auto 80px;
+}
+
+.timeTitle {
+    grid-area: titulo;
+    text-align: center;
+    color: #ffe600;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-top: 30px;
+    transition: 2s ease-in;
+    animation-name: zoom;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes zoom {
+    from {font-size: 0px;}
+    to {font-size: 50px;}
+  }
+
+.timeImg {
+    width: 200px;
+}
+
+.timeImg:hover {
+    width: 220px;
+    transition: 0.2s ease-in-out;
+}
+
+.timeNome {
+    font-family: 'Lora', serif;
+    color: #ffe600;
+}
+
+.textTime {
+    font-family: "Open Sans";
+    color: #fcfcfc;
+}
+
+.cachorro1 {
+    grid-area: cachorro1;
+}
+
+.cao1 {
+    grid-area: cao1;
+}
+
+.cahorro2 {
+    grid-area: cachorro2;
+}
+
+.cao2 {
+    grid-area: cao2;
+}
+
+.cachorro3 {
+    grid-area: cachorro3;
+}
+
+.cao3 {
+    grid-area: cao3;
+}
+
+.cachorro4 {
+    grid-area: cachorro4;
+}
+
+.cao4 {
+    grid-area: cao4;
+}
